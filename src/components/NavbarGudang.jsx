@@ -19,7 +19,7 @@ const NavbarGudang = () => {
         <div className="block md:hidden" onClick={toggleMenu}>
           <FaBars size={35} />
         </div>
-        <ul className={`text-lg md:mr-20 font-semibold text-gray-900 hidden md:flex`}>
+        <ul className={`text-lg font-semibold text-gray-900 hidden md:flex`}>
           <li className="md:mr-3">
             <Link
               href={"/gudang"}
@@ -30,15 +30,7 @@ const NavbarGudang = () => {
           </li>
           <li className="md:mr-3">
             <Link
-              href={"/gudang/products"}
-              className="px-14 py-3  transition-all duration-300 hover:bg-teal-500 hover:text-white rounded"
-            >
-              BOM
-            </Link>
-          </li>
-          <li className="md:mr-3">
-            <Link
-              href={"/gudang/payments"}
+              href={"/gudang/desain"}
               className="px-14 py-3  transition-all duration-300 hover:bg-teal-500 hover:text-white rounded"
             >
               Pesanan
@@ -46,10 +38,18 @@ const NavbarGudang = () => {
           </li>
           <li className="md:mr-3">
             <Link
+              href={"/gudang/payments"}
+              className="px-14 py-3  transition-all duration-300 hover:bg-teal-500 hover:text-white rounded"
+            >
+              Bukti Payment
+            </Link>
+          </li>
+          <li className="md:mr-3">
+            <Link
               href={"/gudang/products"}
               className="px-14 py-3  transition-all duration-300 hover:bg-teal-500 hover:text-white rounded"
             >
-              Bahan Baku
+              Stock Beras
             </Link>
           </li>
           {/* <li className="md:mr-3">

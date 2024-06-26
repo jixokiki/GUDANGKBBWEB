@@ -56,7 +56,7 @@ const Navbar = () => {
                 href={"/desain"}
                 className="px-4 py-3  transition-all duration-300 hover:bg-teal-500 hover:text-white rounded"
               >
-                Paddy
+                Pesan
               </Link>
             </li>
           )}
